@@ -16,8 +16,11 @@ function getData() {
         }).join(" ")
 
         // console.log(htmlStuff)
+        
         document.querySelector('tbody').innerHTML = htmlStuff
     })
 }
+
+
 
 getData()
